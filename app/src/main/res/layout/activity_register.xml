@@ -17,7 +17,7 @@
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
+
             android:layout_marginTop="50dp"
             android:src="@mipmap/ic_launcher" />
 
@@ -48,44 +48,28 @@
             android:padding="10dp"
             android:textColor="@color/Green"
             android:textColorHint="@color/Green" />
-
+        <EditText
+            android:id="@+id/edtrepassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtpassword"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/boder_green"
+            android:hint="Your Pass"
+            android:padding="10dp"
+            android:textColor="@color/Green"
+            android:textColorHint="@color/Green" />
         <Button
             android:id="@+id/btn_register"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/edtpassword"
+            android:layout_below="@+id/edtrepassword"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
             android:background="@drawable/boder_green"
             android:text="register" />
-
-        <LinearLayout
-            android:id="@+id/ln1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/btn_register"
-            android:layout_marginTop="20dp"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:src="@mipmap/ic_launcher" />
-
-            <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:src="@mipmap/ic_launcher" />
-
-            <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:src="@mipmap/ic_launcher" />
-
-        </LinearLayout>
     </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>
