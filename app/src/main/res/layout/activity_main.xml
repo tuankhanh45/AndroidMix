@@ -7,13 +7,13 @@
     tools:context=".MainActivity">
 
     <RelativeLayout
-        android:id="@+id/register_form"
+        android:id="@+id/login_form"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@mipmap/ic_idiot">
 
         <ImageView
-            android:id="@+id/img_register_icon"
+            android:id="@+id/img_login_icon"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:layout_alignParentTop="true"
@@ -25,7 +25,7 @@
             android:id="@+id/edtusername"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/img_register_icon"
+            android:layout_below="@+id/img_login_icon"
             android:layout_marginLeft="40dp"
             android:layout_marginTop="20dp"
             android:layout_marginRight="40dp"
@@ -50,14 +50,14 @@
             android:textColorHint="@color/Green" />
 
         <Button
-            android:id="@+id/btn_register"
+            android:id="@+id/btn_login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/edtpassword"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
             android:background="@drawable/boder_green"
-            android:text="register" />
+            android:text="login" />
 
         <LinearLayout
             android:id="@+id/ln1"

@@ -45,6 +45,7 @@
             android:layout_marginRight="40dp"
             android:background="@drawable/boder_green"
             android:hint="Your Pass"
+            android:password="true"
             android:padding="10dp"
             android:textColor="@color/Green"
             android:textColorHint="@color/Green" />
