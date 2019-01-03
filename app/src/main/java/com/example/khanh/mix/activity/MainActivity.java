@@ -1,10 +1,12 @@
-package com.example.khanh.mix;
+package com.example.khanh.mix.activity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+
+import com.example.khanh.mix.R;
 
 public class MainActivity extends AppCompatActivity {
     private Button btnLogin;
@@ -26,5 +28,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+     private void  Login(String userName, String  PassWord){
+            // login here
+
+     }
 
 }
